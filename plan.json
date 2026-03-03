@@ -1,0 +1,44 @@
+{
+  "Lunes": {
+    "Desayuno": "Jugo verde\nPerejil- 1/3 de taza\nPepino- ½ pieza\nEspinaca- ½ taza\nNopal – ½ pieza\nJugo de 2 naranjas\nAgua- 1 ½ tazas",
+    "Colación 1": "Chía pudding\n½ taza de yogurt\nChia- 1 cucharadita\nLeche- ¼ de taza\nPlatno en rodajas ½ pieza\nCrema de cacahuate- 1 cucharadita",
+    "Comida": "Bowl de pollo y verduras\nPechuga de pollo cocida – 2 palmas de ru mano\nArroz cocido- ¼ de taza\nBrócoli al vapor- 1/3 taza\nColiflor al vapor- 1/3 de taza\nTomate Cherry rebanada- 2 piezas\n1 taza de lechugas mixtas\nColoca en un bowl los ingredientes y decora con 1/3\nde pieza de aguacate.\nRecuerda que puedes condimentar con sal pimienta.",
+    "Colación 2": "Fruta al gusto- 1 taza\nAlmendras – 5 piezas",
+    "Cena": "Ensalada mixta\nEspinaca-1 taza\nLechuga- 1 taza\nJitomate cherry\nAguacate- 1/3 de pieza\nAlmendras-5 piezas\nPechuga de pollo a la plancha- 1"
+  },
+  "Martes": {
+    "Desayuno": "Choco fit\nLeche- 1 taza\nPlátano ½ pieza\nCacao en polvo o choco milk-\n1 cucharadita\nNuez – 2 mitades\nCanela y vainilla al gusto",
+    "Colación 1": "Toast de huevo\nPan tostado- 1 rebanada\nHuevo cocido 2 piezas\nAguacate ¼ de pieza",
+    "Comida": "Bistec con ensalada\nBistec de res 130 gr\nCocinarlas con cebolla, jitomate y picante al\ngusto\nEnsalada verde:\nMix de lechugas- 1 taza\nManzana en cubos- 1 pieza\nZanahoria rallada\nPepino piacado\nJicama",
+    "Colación 2": "Fruta al gusto- 1 taza\nAlmendras – 5 piezas",
+    "Cena": "Ensalada mixta\nEspinaca-1 taza\nLechuga- 1 taza\nJitomate cherry\nAguacate- 1/3 de pieza\nAlmendras-5 piezas\nPechuga de pollo a la plancha- 1"
+  },
+  "Miércoles": {
+    "Desayuno": "Jugo verde\nPerejil- 1/3 de taza\nPepino- ½ pieza\nEspinaca- ½ taza\nNopal – ½ pieza\nJugo de 2 naranjas\nAgua- 1 ½ tazas",
+    "Colación 1": "Huevo con jamón\nHuevo 2 piezas\nJamón de pavo- 2 rebanadas\nSalmas- 1 paquetito",
+    "Comida": "Pechuga rellena de espinaca\nPechuga de pollo- 140 gr\nEspinaca ½ taza\nEnsalada:\nMix de lechugas y espinaca- 1 taza\nManzana en cubos- 1 pieza\nNueces- 4 mitades\nAguacte- ¼ de pieza\nArroz cocido- ¾ de taza\nTortilla- 2 piezas",
+    "Colación 2": "Fruta al gusto- 1 taza\nAlmendras – 5 piezas",
+    "Cena": "Sándwich básico\nPan bimbo cero- 2 rebanadas\nJamón de pavo- 2 rebanadas\nRodajas de pepino y jitomate ¼ de taza\nQueso panela- 1 rebanada regular\nAguacate- 1/3 de pieza\nPechuga de pollo- 2 piezas regula\n(palma de tu mano)\nJugo verde"
+  },
+  "Jueves": {
+    "Desayuno": "Malteada de fresa\nLeche- 1 taza\nFresas ½ taza\nPlátano-1/2 pieza\nGalletas marías- 5 piezas\nCrema de cacahuate- 1\ncucharadita",
+    "Colación 1": "Chía pudding\n½ taza de yogurt\nChia- 1 cucharadita\nLeche- ¼ de taza\nPlatno en rodajas ½ pieza\nCrema de cacahuate- 1 cucharadita",
+    "Comida": "Tostadas de tinga de atún\nSalsa de jitomate con picante al gusto\nCebolla picada finamente al gusto\nAtún drenado 1 ½ latas (guisar con 1 cucharadita\nde aceite de oliva)\nAgrega el atún a la salda de jitomate y deja\ncocinar por 5 min.\nTostadas horneadas 2 piezas\nAguacate ¼ de pieza\nVerduras al gusto 1 taza",
+    "Colación 2": "Fruta al gusto- 1 taza\nAlmendras – 5 piezas",
+    "Cena": "Sándwich básico\nPan bimbo cero- 2 rebanadas\nJamón de pavo- 2 rebanadas\nRodajas de pepino y jitomate ¼ de taza\nQueso panela- 1 rebanada regula\nr\nAguacate- 1/3 de pieza\nPechuga de pollo- 2 piezas regu\n(palma de tu mano)\nJugo verde"
+  },
+  "Viernes": {
+    "Desayuno": "Licuado de fruta al gusto\nLeche- 1 taza\nFruta ½ pieza o media taza\nNuez- 2 mitades\nAvena- 1 cucharada\nCanela y vainilla al gusto",
+    "Colación 1": "Toast de huevo\nPan tostado- 1 rebanada\nHuevo cocido 2 piezas\nAguacate ¼ de pieza",
+    "Comida": "Picadillo de res\nCarne molida- ½ taza\nVerduras- ½ taza (zanahoria,\nchícharo)\nAguacate- ¼ de pieza\nQueso panela- 2 rebanadas regulares\nTortilla- 1 pieza\nSopa de verduras- 1 taza",
+    "Colación 2": "Fruta al gusto- 1 taza\nAlmendras – 5 piezas",
+    "Cena": "Sándwich de Huevo arcoíris\nPan bimbo cero- 2 rebanadas\nHuevo entero- 2 piezas\nChile morrón de colores- ½ taza\nde\nCebolla y sal al gusto\nYogurt - 1 pieza\nJugo antioxidante\nFresa- 6 piezas\nular\nPepino- ½ pieza\nApio- 1 tallo\nEspinaca- ¼ de taza\nLicuar con agua"
+  },
+  "Sábado": {
+    "Desayuno": "Jugo verde\nPerejil- 1/3 de taza\nPepino- ½ pieza\nEspinaca- ½ taza\nNopal – ½ pieza\nJugo de 2 naranjas\nAgua- 1 ½ tazas",
+    "Colación 1": "Huevo con jamón\nHuevo 2 piezas\nJamón de pavo- 2 rebanadas\nSalmas- 1 paquetito",
+    "Comida": "Tostadas de tinga de atún\nSalsa de jitomate con picante al gusto\nCebolla picada finamente al gusto\nAtún drenado 1 ½ latas (guisar con 1 cucharadita de\naceite de oliva)\nAgrega el atún a la salda de jitomate y deja cocinar\npor 5 min.\nTostadas horneadas 2 piezas\nAguacate ¼ de pieza\nVerduras al gusto 1 taza",
+    "Colación 2": "Fruta al gusto- 1 taza\nAlmendras – 5 piezas",
+    "Cena": "Sándwich de Huevo arcoíris\nPan bimbo cero- 2 rebanadas\nHuevo entero- 2 piezas\nChile morrón de colores- ½ taza\nCebolla y sal al gusto\nYogurt - 1 pieza\nJugo antioxidante\nFresa- 6 piezas\nPepino- ½ pieza\nApio- 1 tallo\nEspinaca- ¼ de taza\nLicuar con agua"
+  }
+}
