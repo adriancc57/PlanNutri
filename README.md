@@ -1,5 +1,7 @@
 # Plan de Alimentación -- Visor Web
 
+https://adriancc57.github.io/PlanNutri/
+
 Este proyecto permite visualizar un **plan de alimentación semanal** de
 forma sencilla desde un teléfono o navegador web, con **letra grande y
 navegación simple**.
