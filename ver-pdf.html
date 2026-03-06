@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan en PDF</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      padding: 12px;
+      text-align: center;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .topbar a {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #2d6cdf;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .viewer {
+      width: 100%;
+      height: calc(100% - 64px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <a href="./planfeb.pdf" target="_blank">Abrir PDF directamente</a>
+  </div>
+
+  <iframe class="viewer" src="./planfeb.pdf"></iframe>
+
+</body>
+</html>
