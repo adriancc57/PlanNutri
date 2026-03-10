@@ -1,79 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Plan de alimentación</title>
+
   <style>
     body {
-      font-family: system-ui, Arial, sans-serif;
-      margin: 24px;
-      line-height: 1.4;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 24px 16px 40px;
+      margin: 0;
+      color: #222;
     }
 
     h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
+      font-size: 32px;
+      margin-bottom: 20px;
     }
 
-    .row {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin: 12px 0 18px;
-    }
-
-    label {
-      display: flex;
-      flex-direction: column;
-      font-size: 16px;
-      gap: 6px;
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
     }
 
     select {
-      font-size: 18px;
-      padding: 10px 12px;
-      min-width: 220px;
-    }
-
-    .card {
-      border: 1px solid #ddd;
-      border-radius: 12px;
-      padding: 18px;
-      max-width: 900px;
-    }
-
-    .meal {
-      font-size: 26px;
-      white-space: pre-wrap;
-    }
-
-    .controls {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      margin-top: 12px;
-      flex-wrap: wrap;
-    }
-
-    button {
-      font-size: 16px;
-      padding: 10px 12px;
+      font-size: 22px;
+      padding: 12px;
+      margin: 8px;
+      width: min(100%, 320px);
       border-radius: 10px;
       border: 1px solid #ccc;
-      background: #fff;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #f5f5f5;
+      background: white;
     }
 
     .pdf-btn {
       display: inline-block;
-      margin: 15px 10px;
-      padding: 12px 18px;
+      margin: 18px 10px 8px;
+      padding: 14px 20px;
       font-size: 20px;
       background: #2d6cdf;
       color: white;
@@ -84,146 +49,133 @@
     .pdf-btn:hover {
       background: #1f57b8;
     }
+
+    #resultado {
+      margin-top: 24px;
+      font-size: 28px;
+      line-height: 1.6;
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      white-space: pre-line;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    }
+
+    #ingredientes-section {
+      margin-top: 40px;
+      text-align: left;
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    }
+
+    #ingredientes-section h2 {
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    #ingredientes-lista {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    #ingredientes-lista li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 24px;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    #ingredientes-lista input[type="checkbox"] {
+      width: 24px;
+      height: 24px;
+      accent-color: #2d6cdf;
+      flex-shrink: 0;
+    }
+
+    #ingredientes-lista label {
+      cursor: pointer;
+    }
+
+    #ingredientes-lista label.checked {
+      text-decoration: line-through;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      select {
+        font-size: 20px;
+      }
+
+      #resultado {
+        font-size: 24px;
+        padding: 20px;
+      }
+
+      #ingredientes-section h2 {
+        font-size: 24px;
+      }
+
+      #ingredientes-lista li {
+        font-size: 22px;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <h1>Plan de alimentación</h1>
-  <a href="ver-pdf.html" target="_blank" class="pdf-btn">Ver plan completo en PDF</a>
+  <div class="container">
+    <h1>Plan de alimentación</h1>
 
-  <div class="row">
-    <label>
-      Día
-      <select id="daySelect"></select>
-    </label>
+    <div>
+      <select id="dia">
+        <option>Lunes</option>
+        <option>Martes</option>
+        <option>Miércoles</option>
+        <option>Jueves</option>
+        <option>Viernes</option>
+        <option>Sábado</option>
+      </select>
 
-    <label>
-      Comida
-      <select id="mealSelect"></select>
-    </label>
-  </div>
-
-  <div class="card">
-    <div id="output" class="meal">Cargando...</div>
-
-    <div class="controls">
-      <button id="fontMinus">A−</button>
-      <button id="fontPlus">A+</button>
-      <button id="toggleContrast">Alto contraste</button>
+      <select id="comida">
+        <option>Desayuno</option>
+        <option>Colación 1</option>
+        <option>Comida</option>
+        <option>Colación 2</option>
+        <option>Cena</option>
+      </select>
     </div>
+
+    <a href="ver-pdf.html" target="_blank" class="pdf-btn">Ver plan completo en PDF</a>
+
+    <div id="resultado">
+      Selecciona un día y una comida
+    </div>
+
+    <section id="ingredientes-section">
+      <h2>Ingredientes de la semana</h2>
+      <ul id="ingredientes-lista"></ul>
+    </section>
   </div>
-  <section id="ingredientes-section"
-    style="margin-top:40px; text-align:left; max-width:700px; margin-left:auto; margin-right:auto;">
-    <h2 style="font-size:28px;">Ingredientes de la semana</h2>
-    <ul id="ingredientes-lista" style="font-size:22px; line-height:1.6; padding-left:25px;"></ul>
-  </section>
 
   <script>
-    const daySelect = document.getElementById("daySelect");
-    const mealSelect = document.getElementById("mealSelect");
-    const output = document.getElementById("output");
-
-    const fontMinus = document.getElementById("fontMinus");
-    const fontPlus = document.getElementById("fontPlus");
-    const toggleContrast = document.getElementById("toggleContrast");
-
     let plan = {};
-    const MEAL_ORDER = ["Desayuno", "Colación 1", "Comida", "Colación 2", "Cena"];
-
-    function saveState() {
-      localStorage.setItem("plan_day", daySelect.value);
-      localStorage.setItem("plan_meal", mealSelect.value);
-      localStorage.setItem("plan_font", output.style.fontSize || "26px");
-      localStorage.setItem("plan_contrast", document.body.dataset.contrast || "");
-    }
-
-    function loadState() {
-      const day = localStorage.getItem("plan_day");
-      const meal = localStorage.getItem("plan_meal");
-      const font = localStorage.getItem("plan_font");
-      const contrast = localStorage.getItem("plan_contrast");
-
-      if (font) output.style.fontSize = font;
-      if (contrast) document.body.dataset.contrast = contrast;
-      return { day, meal };
-    }
-
-    function applyContrast() {
-      const on = document.body.dataset.contrast === "on";
-      if (on) {
-        document.body.style.background = "#000";
-        document.body.style.color = "#fff";
-        document.querySelectorAll(".card").forEach(c => c.style.borderColor = "#555");
-      } else {
-        document.body.style.background = "";
-        document.body.style.color = "";
-        document.querySelectorAll(".card").forEach(c => c.style.borderColor = "#ddd");
-      }
-    }
-
-    function updateOutput() {
-      const d = daySelect.value;
-      const m = mealSelect.value;
-      const text = (plan[d] && plan[d][m]) ? plan[d][m] : "No hay información.";
-      output.textContent = text;
-      saveState();
-    }
-
-    function fillDaysAndMeals(saved) {
-      const days = Object.keys(plan);
-      daySelect.innerHTML = days.map(d => `<option value="${d}">${d}</option>`).join("");
-
-      // meals: usa el orden recomendado si existe
-      const availableMeals = new Set();
-      days.forEach(d => Object.keys(plan[d] || {}).forEach(m => availableMeals.add(m)));
-
-      const mealsSorted = MEAL_ORDER.filter(m => availableMeals.has(m))
-        .concat([...availableMeals].filter(m => !MEAL_ORDER.includes(m)));
-
-      mealSelect.innerHTML = mealsSorted.map(m => `<option value="${m}">${m}</option>`).join("");
-
-      if (saved.day && days.includes(saved.day)) daySelect.value = saved.day;
-      if (saved.meal && mealsSorted.includes(saved.meal)) mealSelect.value = saved.meal;
-
-      updateOutput();
-    }
-
-    async function init() {
-      const saved = loadState();
-      applyContrast();
-
-      const res = await fetch("plan.json", { cache: "no-store" });
-      plan = await res.json();
-
-      fillDaysAndMeals(saved);
-
-      daySelect.addEventListener("change", updateOutput);
-      mealSelect.addEventListener("change", updateOutput);
-
-      fontPlus.addEventListener("click", () => {
-        const current = parseInt(getComputedStyle(output).fontSize, 10);
-        output.style.fontSize = (current + 2) + "px";
-        saveState();
-      });
-
-      fontMinus.addEventListener("click", () => {
-        const current = parseInt(getComputedStyle(output).fontSize, 10);
-        output.style.fontSize = Math.max(16, current - 2) + "px";
-        saveState();
-      });
-
-      toggleContrast.addEventListener("click", () => {
-        document.body.dataset.contrast = (document.body.dataset.contrast === "on") ? "" : "on";
-        applyContrast();
-        saveState();
-      });
-    }
-
-    init().catch(err => {
-      output.textContent = "Error cargando plan.json. Revisa que exista junto a index.html.";
-      console.error(err);
-    });
-
     let ingredientes = [];
 
     fetch("plan.json")
@@ -235,20 +187,9 @@
         renderIngredientes();
         actualizar();
       })
-      .catch(e => {
+      .catch(() => {
         document.getElementById("resultado").innerText = "Error cargando plan.json";
       });
-
-    function renderIngredientes() {
-      const lista = document.getElementById("ingredientes-lista");
-      lista.innerHTML = "";
-
-      ingredientes.forEach(item => {
-        const li = document.createElement("li");
-        li.textContent = item;
-        lista.appendChild(li);
-      });
-    }
 
     function actualizar() {
       const dia = document.getElementById("dia").value;
@@ -261,9 +202,50 @@
       }
     }
 
+    function renderIngredientes() {
+      const lista = document.getElementById("ingredientes-lista");
+      lista.innerHTML = "";
+
+      const checkedItems = JSON.parse(localStorage.getItem("ingredientes-checked") || "{}");
+
+      ingredientes.forEach((item, index) => {
+        const li = document.createElement("li");
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = `ingrediente-${index}`;
+        checkbox.checked = !!checkedItems[item];
+
+        const label = document.createElement("label");
+        label.htmlFor = checkbox.id;
+        label.textContent = item;
+
+        if (checkbox.checked) {
+          label.classList.add("checked");
+        }
+
+        checkbox.addEventListener("change", () => {
+          const current = JSON.parse(localStorage.getItem("ingredientes-checked") || "{}");
+
+          if (checkbox.checked) {
+            current[item] = true;
+            label.classList.add("checked");
+          } else {
+            delete current[item];
+            label.classList.remove("checked");
+          }
+
+          localStorage.setItem("ingredientes-checked", JSON.stringify(current));
+        });
+
+        li.appendChild(checkbox);
+        li.appendChild(label);
+        lista.appendChild(li);
+      });
+    }
+
     document.getElementById("dia").addEventListener("change", actualizar);
     document.getElementById("comida").addEventListener("change", actualizar);
   </script>
 </body>
-
 </html>
