@@ -1,35 +1,92 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Plan de alimentación</title>
   <style>
-    body { font-family: system-ui, Arial, sans-serif; margin: 24px; line-height: 1.4; }
-    h1 { font-size: 28px; margin-bottom: 12px; }
-    .row { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0 18px; }
-    label { display: flex; flex-direction: column; font-size: 16px; gap: 6px; }
-    select { font-size: 18px; padding: 10px 12px; min-width: 220px; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 18px; max-width: 900px; }
-    .meal { font-size: 26px; white-space: pre-wrap; }
-    .controls { display: flex; gap: 10px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
-    button { font-size: 16px; padding: 10px 12px; border-radius: 10px; border: 1px solid #ccc; background: #fff; cursor: pointer; }
-    button:hover { background: #f5f5f5; }
-    .pdf-btn{
-    display:inline-block;
-    margin:15px 10px;
-    padding:12px 18px;
-    font-size:20px;
-    background:#2d6cdf;
-    color:white;
-    text-decoration:none;
-    border-radius:10px;
-}
-.pdf-btn:hover{
-    background:#1f57b8;
-}
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 24px;
+      line-height: 1.4;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    .row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 12px 0 18px;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      gap: 6px;
+    }
+
+    select {
+      font-size: 18px;
+      padding: 10px 12px;
+      min-width: 220px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 18px;
+      max-width: 900px;
+    }
+
+    .meal {
+      font-size: 26px;
+      white-space: pre-wrap;
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      font-size: 16px;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #f5f5f5;
+    }
+
+    .pdf-btn {
+      display: inline-block;
+      margin: 15px 10px;
+      padding: 12px 18px;
+      font-size: 20px;
+      background: #2d6cdf;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    .pdf-btn:hover {
+      background: #1f57b8;
+    }
   </style>
 </head>
+
 <body>
   <h1>Plan de alimentación</h1>
   <a href="ver-pdf.html" target="_blank" class="pdf-btn">Ver plan completo en PDF</a>
@@ -55,6 +112,11 @@
       <button id="toggleContrast">Alto contraste</button>
     </div>
   </div>
+  <section id="ingredientes-section"
+    style="margin-top:40px; text-align:left; max-width:700px; margin-left:auto; margin-right:auto;">
+    <h2 style="font-size:28px;">Ingredientes de la semana</h2>
+    <ul id="ingredientes-lista" style="font-size:22px; line-height:1.6; padding-left:25px;"></ul>
+  </section>
 
   <script>
     const daySelect = document.getElementById("daySelect");
@@ -161,6 +223,47 @@
       output.textContent = "Error cargando plan.json. Revisa que exista junto a index.html.";
       console.error(err);
     });
+
+    let ingredientes = [];
+
+    fetch("plan.json")
+      .then(r => r.json())
+      .then(data => {
+        ingredientes = data.ingredientes || [];
+        plan = data.plan || {};
+
+        renderIngredientes();
+        actualizar();
+      })
+      .catch(e => {
+        document.getElementById("resultado").innerText = "Error cargando plan.json";
+      });
+
+    function renderIngredientes() {
+      const lista = document.getElementById("ingredientes-lista");
+      lista.innerHTML = "";
+
+      ingredientes.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        lista.appendChild(li);
+      });
+    }
+
+    function actualizar() {
+      const dia = document.getElementById("dia").value;
+      const comida = document.getElementById("comida").value;
+
+      if (plan[dia] && plan[dia][comida]) {
+        document.getElementById("resultado").innerText = plan[dia][comida];
+      } else {
+        document.getElementById("resultado").innerText = "No hay información disponible.";
+      }
+    }
+
+    document.getElementById("dia").addEventListener("change", actualizar);
+    document.getElementById("comida").addEventListener("change", actualizar);
   </script>
 </body>
+
 </html>
