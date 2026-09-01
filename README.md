@@ -2,127 +2,71 @@
 
 https://adriancc57.github.io/PlanNutri/
 
-Este proyecto permite visualizar un **plan de alimentación semanal** de
-forma sencilla desde un teléfono o navegador web, con **letra grande y
-navegación simple**.
+Este proyecto permite consultar planes de alimentación semanales por persona desde un navegador o teléfono. Funciona como una aplicación estática, sin backend ni dependencias.
 
-Fue diseñado especialmente para facilitar la lectura del plan a personas
-que tienen dificultad para leer PDFs con texto pequeño.
+## Selector de persona
 
-El sistema permite:
+La página principal permite seleccionar:
 
--   Consultar las comidas por **día de la semana**
--   Seleccionar el **tipo de comida** (Desayuno, Colación, Comida, etc.)
--   Mostrar el contenido con **letras grandes**
--   Abrir el **PDF original del plan** en otra pestaña si se desea ver
-    el documento completo
+- `angelica` — Angelica
+- `adrian` — Adrian
+- `karina` — Karina
 
-El sitio funciona completamente en **modo estático**, por lo que puede
-desplegarse fácilmente en **GitHub Pages** o cualquier servidor web.
+Al cambiar de persona se actualizan el título, el plan, las recomendaciones especiales y el enlace al PDF correspondiente.
 
-------------------------------------------------------------------------
+## Estructura multi-persona
 
-# Estructura del proyecto
+`plan.json` mantiene un objeto por persona y una lista global de ingredientes:
 
-    project/
-    │
-    ├── index.html        # Página principal del visor
-    ├── ver-pdf.html      # Visor del PDF dentro del navegador
-    ├── plan.json         # Plan de alimentación en formato JSON
-    ├── plan.pdf          # PDF original del nutriólogo
-    └── README.md
-
-------------------------------------------------------------------------
-
-# Formato del JSON
-
-El archivo `plan.json` contiene el plan estructurado por **día y tipo de
-comida**.
-
-Ejemplo:
-
-``` json
+```json
 {
-  "Lunes": {
-    "Desayuno": "Smoothie...",
-    "Colación 1": "Huevos con vegetales...",
-    "Comida": "Caldo de setas...",
-    "Colación 2": "Manzana 1 pieza",
-    "Cena": "Carlota de fresa..."
-  }
+  "angelica": {
+    "recomendacionesespeciales": {},
+    "plan": {}
+  },
+  "adrian": {
+    "recomendacionesespeciales": {},
+    "plan": {}
+  },
+  "karina": {
+    "recomendacionesespeciales": {},
+    "plan": {}
+  },
+  "ingredientes": []
 }
 ```
 
-La página web utiliza esta estructura para mostrar la comida
-seleccionada.
+El plan existente pertenece solamente a `angelica`. Los planes de `adrian` y `karina` permanecen vacíos hasta que existan datos propios; no se replica ni se inventa contenido.
 
-------------------------------------------------------------------------
+## Ingredientes globales
 
-# Cómo usar el visor
+La lista procede siempre de `data.ingredientes` y es compartida por todas las personas. El estado de sus checkboxes se conserva globalmente en `localStorage["ingredientes-checked"]`; cambiar de persona no borra ni separa la lista.
 
-1.  Abrir `index.html` en un navegador\
-2.  Seleccionar:
-    -   Día de la semana
-    -   Tipo de comida\
-3.  El contenido aparecerá automáticamente en pantalla
+## PDFs por persona
 
-También existe un botón para:
+El botón abre `ver-pdf.html?persona=<persona>` en otra pestaña. El visor usa un mapa explícito para resolver:
 
-**Ver plan completo en PDF**
+- `angelica` → `angelica.pdf`
+- `adrian` → `adrian.pdf`
+- `karina` → `karina.pdf`
 
-Esto abrirá el archivo `plan.pdf` en otra pestaña dentro del navegador.
+Si el parámetro no es válido, se utiliza Angelica como persona predeterminada.
 
-------------------------------------------------------------------------
+## Uso
 
-# Actualizar el plan de alimentación
+1. Servir el directorio con cualquier servidor web estático.
+2. Abrir `index.html`.
+3. Elegir persona, día y comida.
+4. Consultar recomendaciones especiales cuando existan o abrir el PDF individual.
 
-Cuando el nutriólogo envíe un nuevo plan:
+## Pruebas en local
 
-1.  Reemplazar el archivo:
+Debido a que la aplicación carga `plan.json` mediante `fetch()`, no debe abrirse
+`index.html` directamente desde Finder usando `file://`, ya que el navegador
+bloqueará la carga del JSON por CORS.
 
-```{=html}
-<!-- -->
-```
-    plan.pdf
+Para ejecutar el proyecto localmente, abrir una terminal en la raíz del proyecto
+y ejecutar:
 
-2.  Generar el nuevo JSON con el contenido del plan.
-
-3.  Reemplazar el archivo:
-
-```{=html}
-<!-- -->
-```
-    plan.json
-
-4.  Subir los cambios al repositorio o servidor.
-
-El visor mostrará automáticamente la nueva información.
-
-------------------------------------------------------------------------
-
-# Tecnologías utilizadas
-
--   HTML
--   CSS
--   JavaScript
--   JSON
-
-No se requiere backend ni base de datos.
-
-------------------------------------------------------------------------
-
-# Despliegue recomendado
-
-El proyecto puede desplegarse fácilmente en:
-
--   **GitHub Pages**
--   **Netlify**
--   **Cualquier servidor web estático**
-
-------------------------------------------------------------------------
-
-# Objetivo del proyecto
-
-El objetivo es crear una forma **simple y accesible** de consultar un
-plan de alimentación desde el teléfono, evitando la dificultad de leer
-documentos PDF con texto pequeño.
+```bash
+python3 -m http.server 8000

@@ -51,6 +51,26 @@
       background: #1f57b8;
     }
 
+    #recomendaciones-section {
+      margin: 20px auto 0;
+      background: white;
+      padding: 20px 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+      text-align: left;
+      max-width: 760px;
+    }
+
+    #recomendaciones-section h2 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+
+    #recomendaciones-section li {
+      font-size: 22px;
+      line-height: 1.5;
+    }
+
     #resultado {
       margin-top: 24px;
       font-size: 28px;
@@ -124,6 +144,11 @@
         font-size: 20px;
       }
 
+      #recomendaciones-section h2,
+      #recomendaciones-section li {
+        font-size: 20px;
+      }
+
       #resultado {
         font-size: 24px;
         padding: 20px;
@@ -143,9 +168,15 @@
 <body>
   <div class="container">
     <h1>Plan de alimentación</h1>
-    <h2>mamá</h2>
+    <h2 id="persona-titulo">Angelica</h2>
 
     <div>
+      <select id="persona" aria-label="Selecciona una persona">
+        <option value="angelica">Angelica</option>
+        <option value="adrian">Adrian</option>
+        <option value="karina">Karina</option>
+      </select>
+
       <select id="dia">
         <option>Lunes</option>
         <option>Martes</option>
@@ -153,6 +184,7 @@
         <option>Jueves</option>
         <option>Viernes</option>
         <option>Sábado</option>
+        <option>Domingo</option>
       </select>
 
       <select id="comida">
@@ -164,7 +196,9 @@
       </select>
     </div>
 
-    <a href="ver-pdf.html" target="_blank" class="pdf-btn">Ver plan completo en PDF</a>
+    <a id="pdf-link" href="ver-pdf.html?persona=angelica" target="_blank" class="pdf-btn">Ver plan completo en PDF</a>
+
+    <section id="recomendaciones-section" hidden></section>
 
     <div id="resultado">
       Selecciona un día y una comida
@@ -177,28 +211,106 @@
   </div>
 
   <script>
-    let plan = {};
+    const PERSONA_LABELS = {
+      angelica: "Angelica",
+      adrian: "Adrian",
+      karina: "Karina"
+    };
+
+    let planData = {};
     let ingredientes = [];
+    let personaSeleccionada = "angelica";
 
     fetch("plan.json")
       .then(r => r.json())
       .then(data => {
-        ingredientes = data.ingredientes || [];
-        plan = data.plan || {};
+        planData = data || {};
+        ingredientes = Array.isArray(data.ingredientes) ? data.ingredientes : [];
 
         renderIngredientes();
-        actualizar();
+        actualizarPersona();
       })
       .catch(() => {
         document.getElementById("resultado").innerText = "Error cargando plan.json";
       });
 
+    function getPersonaData() {
+      return planData[personaSeleccionada] || {};
+    }
+
+    function getPlanActual() {
+      return getPersonaData().plan || {};
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function formatEspeciales(value, prefix = "") {
+      if (typeof value === "string") {
+        const texto = value.trim();
+        return texto ? [prefix ? `${prefix}: ${texto}` : texto] : [];
+      }
+
+      if (Array.isArray(value)) {
+        return value.flatMap(item => formatEspeciales(item, prefix));
+      }
+
+      if (value && typeof value === "object") {
+        return Object.entries(value).flatMap(([key, entry]) =>
+          formatEspeciales(
+            entry,
+            Array.isArray(entry) ? "" : (prefix ? `${prefix} - ${key}` : key)
+          )
+        );
+      }
+
+      if (value !== null && value !== undefined) {
+        return [prefix ? `${prefix}: ${String(value)}` : String(value)];
+      }
+
+      return [];
+    }
+
+    function renderRecomendaciones() {
+      const section = document.getElementById("recomendaciones-section");
+      const lines = formatEspeciales(getPersonaData().recomendacionesespeciales);
+
+      if (lines.length === 0) {
+        section.hidden = true;
+        section.innerHTML = "";
+        return;
+      }
+
+      section.hidden = false;
+      section.innerHTML = `
+        <h2>Recomendaciones especiales</h2>
+        <ul>${lines.map(line => `<li>${escapeHtml(line)}</li>`).join("")}</ul>
+      `;
+    }
+
+    function actualizarPersona() {
+      personaSeleccionada = document.getElementById("persona").value;
+      document.getElementById("persona-titulo").textContent =
+        PERSONA_LABELS[personaSeleccionada] || PERSONA_LABELS.angelica;
+      document.getElementById("pdf-link").href =
+        `ver-pdf.html?persona=${encodeURIComponent(personaSeleccionada)}`;
+      renderRecomendaciones();
+      actualizar();
+    }
+
     function actualizar() {
       const dia = document.getElementById("dia").value;
       const comida = document.getElementById("comida").value;
+      const planActual = getPlanActual();
 
-      if (plan[dia] && plan[dia][comida]) {
-        document.getElementById("resultado").innerText = plan[dia][comida];
+      if (planActual[dia] && planActual[dia][comida]) {
+        document.getElementById("resultado").innerText = planActual[dia][comida];
       } else {
         document.getElementById("resultado").innerText = "No hay información disponible.";
       }
@@ -246,6 +358,7 @@
       });
     }
 
+    document.getElementById("persona").addEventListener("change", actualizarPersona);
     document.getElementById("dia").addEventListener("change", actualizar);
     document.getElementById("comida").addEventListener("change", actualizar);
   </script>

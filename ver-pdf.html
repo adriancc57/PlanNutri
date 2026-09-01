@@ -40,10 +40,27 @@
 <body>
 
   <div class="topbar">
-    <a href="plan.pdf" target="_blank">Abrir PDF directamente</a>
+    <a id="pdf-link" href="angelica.pdf" target="_blank">Abrir PDF directamente</a>
   </div>
 
-  <iframe class="viewer" src="plan.pdf"></iframe>
+  <iframe id="pdf-frame" class="viewer" src="angelica.pdf"></iframe>
+
+  <script>
+    const PDFS_POR_PERSONA = {
+      angelica: "angelica.pdf",
+      adrian: "adrian.pdf",
+      karina: "karina.pdf"
+    };
+
+    const personaSolicitada = new URLSearchParams(window.location.search).get("persona");
+    const persona = Object.hasOwn(PDFS_POR_PERSONA, personaSolicitada)
+      ? personaSolicitada
+      : "angelica";
+    const pdf = PDFS_POR_PERSONA[persona];
+
+    document.getElementById("pdf-link").href = pdf;
+    document.getElementById("pdf-frame").src = pdf;
+  </script>
 
 </body>
 </html>
