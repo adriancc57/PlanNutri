@@ -1,7 +1,65 @@
 {
   "angelica": {
-    "recomendacionesespeciales": {},
-    "plan": {}
+    "recomendacionesespeciales": {
+      "generales": [
+        "Respetar las cantidades establecidas.",
+        "Comer solo lo que está en el plan de alimentación.",
+        "Realizar los 5 tiempos de comida.",
+        "Beber 2.5 litros de agua natural al día sin contar té, café y agua de desayuno, comida y cena.",
+        "Realizar 60 minutos de ejercicio diariamente."
+      ]
+    },
+    "plan": {
+      "Lunes": {
+        "Desayuno": "Licuado tropical\nPapaya: 1/2 taza\nPiña: 1/2 rebanada\nLinaza: 1 cucharada\nChía: 1 cucharada\nPepino: 1/2 pieza\nEspinaca: 1 puño\nAgua: 1 1/2 tazas",
+        "Colación 1": "Tostado de huevo\nTostada horneada Sanissimo: 2 piezas\nClara de huevo cocida: 1/2 taza\nAguacate: 1/4 pieza\nVerduras al gusto: 1 taza",
+        "Comida": "Filete de pescado empapelado\nFilete de pescado (tilapia): 2 piezas pequeñas o 1 grande\nVerduras al gusto (pepino, jícama, zanahoria): 1 taza\nSopa de verduras: 1 taza\nTortillas: 3 piezas",
+        "Colación 2": "Fruta al gusto: 1 taza\nYogurt: 1 pieza\nAlmendras: 5 piezas",
+        "Cena": "Bowl de avena\nFresas: 8 piezas\nAvena: 1/2 taza\nLeche: 1 taza\nAlmendra fileteada: 2 cucharas\nCanela y vainilla: al gusto\nPreparación: Coloca en el microondas por 2 min la leche y la avena y decora con el resto de los ingredientes"
+      },
+      "Martes": {
+        "Desayuno": "Licuado\nLeche baja en grasa o bebida vegetal de almendra o avena sin azúcar: 1 1/2 tazas\nBlueberries: 1/4 taza o fresas: 6 piezas\nPlátano: 1/3 pieza\nNuez: 4 mitades\nAvena: 2 cucharadas\nCanela y vainilla: al gusto",
+        "Colación 1": "Omelette Popeye\nEspinacas y champiñones\nClaras de huevo: 1/4 taza + 1 huevo\nSal y pimienta: una pizca\nAceite: 1 cucharadita (5 ml)\nQueso Oaxaca light: 30 g\nTortillas: 2 piezas\nFruta picada: 1 taza\nPreparación: Revolver en un plato hondo las espinacas y champiñones con las claras y el huevo. En un sartén con el aceite esparcir la mezcla y agregar el queso Oaxaca light. Doblar formando un omelette y sellar por ambos lados hasta que esté bien cocido. Acompañar con 2 tortillas.",
+        "Comida": "Calabacitas con queso\nCalabaza: 2 piezas regulares\nCebolla blanca: al gusto\nAceite de oliva: 1 cucharadita\nJitomate: 2 piezas\nQueso panela: 70 g\nElotitos: 1/4 taza\nBistec de res a la mexicana: 90 g\nTortillas de maíz: 3 piezas",
+        "Colación 2": "Verduras ralladas: 1 taza\nZanahoria, pepino y jícama\nPistaches: 10 piezas",
+        "Cena": "Sándwich básico\nPan Bimbo Cero: 2 rebanadas\nRodajas de pepino y jitomate: 1/4 taza\nQueso panela: 50 g\nAguacate: 1/3 pieza\n\nLicuado: 1/2 porción del de la mañana"
+      },
+      "Miércoles": {
+        "Desayuno": "Jugo verde\nPerejil: 1 ramita\nPepino: 1/4 pieza\nEspinaca: 1/2 taza\nNopal pequeño: 1/2 pieza\nJugo de 2 naranjas\nAgua: 1 1/2 tazas",
+        "Colación 1": "Banana Split con coco\nPlátano: 1/2 pieza\nYogurt griego natural: 1 pieza\nFrutos rojos: 1/2 taza\nCoco rallado: 1 cucharada\nAlmendras fileteadas: 1 cucharada\n\nHuevo estrellado: 1 pieza\nNopal cocido: 1 pieza",
+        "Comida": "Chilaquiles verdes\nTotopos horneados Sanissimo: 1 taza\nSalsa verde: 1 taza\nCrema: 1 cucharadita\nQueso rallado panela: 3 cucharadas\nBistec a la plancha o cecina: 90 g\nLechuga: 1/2 taza\n\nEnsalada mixta: 1 taza\nLechuga, pepino, jitomate, jícama, etc.\nAguacate: 50 g",
+        "Colación 2": "Fruta al gusto: 1 taza\nAlmendras: 5 piezas",
+        "Cena": "Ceviche de panela\nQueso panela en cubos: 60 g\nAguacate: 1/2 pieza\nPepino, cilantro, cebolla y picante: al gusto\nJugo de 2 limones\nPreparación: Mezcla y acompaña con 2 paquetes de Salmas.\n\nLicuado"
+      },
+      "Jueves": {
+        "Desayuno": "Licuado de fibra\nPapaya: 1/4 taza\nManzana: 1/2 pieza\nAvena: 2 cucharadas\nAlmendras: 5 piezas\nAgua: 1/2 taza",
+        "Colación 1": "Ensalada de pepino y aguacate\nPepino picado: 1/2 pieza\nAguacate: 1/2 pieza\nQueso panela: 70 g\nSal y limón: al gusto\nTostadas horneadas: 2 piezas",
+        "Comida": "Carne de res en salsa verde con habas y chícharos\nLomo de res sin grasa: 120 g\nChícharos: 1/2 taza\nSalsa verde: al gusto\nArroz con verduras: 3/4 taza\nTortillas de maíz: 2 piezas\nAguacate: 1/4 pieza\nEnsalada: 1 taza",
+        "Colación 2": "Galletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
+        "Cena": "Cereal con leche\nCereal Kellogg's: 1 taza\nAvena: 2 cucharadas\nLeche: 1 1/2 tazas\nManzana picada: 1 taza\nNuez: 4 mitades"
+      },
+      "Viernes": {
+        "Desayuno": "Licuado tropical\nPapaya: 1/2 taza\nPiña: 1/2 rebanada\nLinaza: 1 cucharada\nChía: 1 cucharada\nPepino: 1/2 pieza\nEspinaca: 1 puño\nAgua: 1 1/2 tazas",
+        "Colación 1": "Mix de frutas con yogurt y semillas\nFruta picada al gusto: 1 taza\nYogurt: 1 pieza\nAlmendra fileteada: 1 cucharada\nChía: 1 cucharadita\nNuez: 2 mitades\n\nHuevo estrellado: 1 pieza\nNopal cocido: 1 pieza",
+        "Comida": "Sopes saludables\nSopes delgados del tamaño de la palma de la mano: 2 piezas\nFrijoles: 2 cucharadas\nPollo guisado al gusto: 1/3 taza\nQueso rallado: 2 cucharadas\nCrema: 2 cucharaditas\nSalsa: al gusto\nSopa de verduras: 1 taza (zanahoria, poro, calabaza, brócoli)",
+        "Colación 2": "Verduras ralladas: 1 taza\nZanahoria, pepino y jícama\nPistaches: 10 piezas",
+        "Cena": "Bowl de avena\nFresas: 8 piezas\nAvena: 1/2 taza\nLeche: 1 taza\nAlmendra fileteada: 2 cucharas\nCanela y vainilla: al gusto\nPreparación: Coloca en el microondas por 2 min la leche y la avena y decora con el resto de los ingredientes"
+      },
+      "Sábado": {
+        "Desayuno": "Licuado\nLeche baja en grasa o bebida vegetal de almendra o avena sin azúcar: 1 1/2 tazas\nBlueberries: 1/4 taza o fresas: 6 piezas\nPlátano: 1/3 pieza\nNuez: 4 mitades\nAvena: 2 cucharadas\nCanela y vainilla: al gusto",
+        "Colación 1": "Ensalada de nopales con queso\nNopal cocido: 1 pieza\nQueso panela en cubos: 60 g\nCebolla: al gusto\nTortilla: 1 pieza\nHuevo estrellado: 1 pieza",
+        "Comida": "Milanesas de carne con ensalada\nCarne molida de res: 90 g\nClaras de huevo: 2 piezas\nCilantro y cebolla: al gusto\nPreparación: Mezclar la carne con las claras, cilantro y cebolla, sin agregar pan molido. Cocinar en sartén antiadherente sin aceite o en comal.\n\nEnsalada de manzana y zanahoria\nManzana en cubos: 1 pieza\nZanahoria rallada: 5 piezas\nNuez: 4 mitades\nYogurt: 2 cucharadas\nPreparación: Mezcla los ingredientes y disfruta.\n\nArroz cocido: 3/4 taza\nTortillas de maíz: 2 piezas\nAguacate: 1/3 pieza",
+        "Colación 2": "Galletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
+        "Cena": "Cereal con leche\nCereal Kellogg's: 1 taza\nAvena: 2 cucharadas\nLeche: 1 1/2 tazas\nManzana picada: 1 taza\nNuez: 4 mitades"
+      },
+      "Domingo": {
+        "Desayuno": "",
+        "Colación 1": "",
+        "Comida": "",
+        "Colación 2": "",
+        "Cena": ""
+      }
+    }
   },
   "adrian": {
     "recomendacionesespeciales": {
@@ -18,71 +76,133 @@
       "Lunes": {
         "Desayuno": "Avocado toast con huevo\nPan tostado o tostadas horneadas: 2 pz\nAguacate: 1/3 pz\nJitomate cherry o verdura al gusto: 1/2 taza\nHuevo: 3 piezas\n\nJugo verde (1 porción)\nPepino, espinaca, apio: 1 taza\nManzana: 1/2 pieza\nAgua: 1 1/2 tazas\nJengibre y jugo de 1 limón: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Yogurt griego con fresas y almendras\nYogurt griego natural: 170 g\nFresas: 1/2 taza\nAlmendras: 10 piezas",
-        "Comida": "Pollo al limón con ensalada mediterránea + sopa de verduras\nPechuga de pollo: 120 g\nPepino: 1/2 taza\nAguacate: 1/4 pieza\nLimón: 1 pieza\nMezcla de lechugas: 2 tazas\nJitomate cherry: 1/2 taza\nAceite de oliva: 1 cucharadita\nSopa de verduras: 1 taza\n\nSopa de verduras (1 porción)\nJitomate: 1\nPimiento morrón rojo o verde: 1/2\nCebolla grande: 1\nApio: 2 varitas\nEjotes: 2 tazas\nSal y pimienta negra: al gusto\nAgua: 2 litros\nAjo: 3 dientes\nAceite de oliva extra virgen: 3 cucharadas\nZanahorias: 2\nCalabazas: 2\nRepollo blanco: 1/4\nPerejil picado: 2 cucharadas\nCilantro: 1 ramita\nPreparación: Saltear el ajo y agregar el pimiento. Añadir las verduras lavadas y cortadas. Agregar el agua y cocinar a fuego moderado durante 30 minutos. Sazonar con sal y pimienta.",
+        "Comida": "Pollo al limón con ensalada mediterránea + sopa de verduras\nPechuga de pollo: 120 g\nPepino: 1/2 taza\nAguacate: 1/4 pieza\nLimón: 1 pieza\nMezcla de lechugas: 2 tazas\nJitomate cherry: 1/2 taza\nAceite de oliva: 1 cucharadita\nSopa de verduras: 1 taza\n\nSopa de pasta en salsa de tomate (1 porción)\nJitomates: 3 piezas\nCebolla: al gusto\nAjo: al gusto\nAceite de oliva: 1 cucharadita\nSal y pimienta: al gusto\nPasta cocida: 1/2 taza\nPreparación: Licuar el jitomate, cebolla y ajo hasta obtener una mezcla homogénea, sazonar en una olla con el aceite y agregar la pasta.",
         "Colación 2": "Verduras frescas\nJícama: 1 pz\nPepino: 2 pz\nZanahoria: 1 pz",
         "Cena": "Bowl de res con vegetales\nBistec de res: 120 g\nNaranja: 1 pz\nCebolla y picante: al gusto\nAceite de oliva: 2 cditas\nSalsa soya baja en sodio: 2 cdas\nMix de pimientos y zanahorias: 1 taza\nArroz o pasta: 1/2 taza\nAguacate: 1/3 pz"
       },
       "Martes": {
-        "Desayuno": "Omelette de verduras + fresh smoothie\nHuevo: 2 piezas\nTortilla o tostada horneada: 2 piezas\nYogurt: 1/2 taza\nEspinacas o verduras al gusto: 1 taza\nFruta picada: 1 taza\n\nFresh smoothie (1 porción)\nManzana verde en trozos: 1/2 pieza\nEspinacas: 1 puño\nPepino: 1/3 pieza\nAgua: 1 taza\nChía: 1 cucharada\nPreparación: Licuar o procesar todos los ingredientes.",
+        "Desayuno": "Omelette de verduras + fresh smoothie\nHuevo: 2 piezas\nTortilla o tostada horneada: 2 piezas\nYogurt: 1/2 taza\nEspinacas o verduras al gusto: 1 taza\nFruta picada: 1 taza\n\nFresh smoothie (1 porción)\nManzana verde en trozos: 1/2 pieza\nAgua: 1 taza\nEspinacas: 1 puño\nChía: 1 cucharada\nPepino: 1/3 pieza\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Snack opción 1\nFruta: 1 porción\nNueces: 1/4 taza",
-        "Comida": "Picadillo de res + sopa de tomate\nCarne molida de res: 130 g\nZanahoria: 1/2 taza\nPuré de tomate natural: 1 taza\nTortillas: 2 piezas\nCalabacita: 1 taza\nCebolla: 1/4 taza\nAceite de oliva: 1 cucharadita\n\nSopa de tomate (1 porción)\nJitomates bola medio maduros: 6\nCebolla grande: 1/2\nLaurel: 2 hojas\nAjo: 4 dientes\nAceite de oliva: según receta del catálogo\nSal y pimienta: al gusto\nPreparación: Picar jitomates y cebolla. Hornear jitomate, cebolla, laurel y ajo con aceite de oliva a 200 C hasta suavizar y dorar ligeramente. Retirar el laurel y licuar hasta obtener una mezcla homogénea.",
+        "Comida": "Picadillo de res + sopa de tomate\nCarne molida de res: 130 g\nCalabacita: 1 taza\nZanahoria: 1/2 taza\nCebolla: 1/4 taza\nPuré de tomate natural: 1 taza\nAceite de oliva: 1 cucharadita\nTortillas: 2 piezas\n\nSopa de pasta en salsa de tomate (1 porción)\nJitomates: 3 piezas\nCebolla: al gusto\nAjo: al gusto\nAceite de oliva: 1 cucharadita\nSal y pimienta: al gusto\nPasta cocida: 1/2 taza\nPreparación: Licuar el jitomate, cebolla y ajo hasta obtener una mezcla homogénea, sazonar en una olla con el aceite y agregar la pasta.",
         "Colación 2": "Bowl de yogurt\nYogurt griego natural sin azúcar: 1 taza\nBlueberries o fruta al gusto: 1 taza\nNueces: 4 mitades\nAlmendras: 4 piezas",
-        "Cena": "Pollo salteado con verduras\nPechuga de pollo en cubos: 120 g\nChampiñones: 1/2 taza\nAceite de oliva: 1 cucharadita\nCalabacita: 1 taza\nCebolla: 1/4 pieza"
+        "Cena": "Pollo salteado con verduras\nPechuga de pollo en cubos: 120 g\nCalabacita: 1 taza\nChampiñones: 1/2 taza\nCebolla: 1/4 pieza\nAceite de oliva: 1 cucharadita"
       },
       "Miércoles": {
-        "Desayuno": "Avocado toast\nPan tostado o tostadas horneadas: 1 pz\nAguacate: 1/3 pz\nJitomate cherry o verdura al gusto: al gusto\n\nFibra smoothie (1 vaso, 350 ml)\nPapaya en trozos: 1/2 taza\nChía o linaza: 1 cucharada\nCanela: al gusto\nAgua o leche de avena: 1 taza\nVainilla: 1 cucharadita\nPreparación: Licuar o procesar todos los ingredientes.",
+        "Desayuno": "Avocado toast\nPan tostado o tostadas horneadas: 1 pz\nAguacate: 1/3 pz\nJitomate cherry o verdura al gusto: al gusto\n\nFibra smoothie (1 vaso, 350 ml)\nPapaya en trozos: 1/2 taza\nAgua o leche de avena: 1 taza\nChía o linaza: 1 cucharada\nVainilla: 1 cucharadita\nCanela: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Verduras frescas\nJícama: 1 pz\nPepino: 2 pz\nZanahoria: 1 pz",
-        "Comida": "Albóndigas rellenas de queso + ensalada de pepino\nCalabaza: 1 pieza\nQueso Oaxaca light: 60 g\nTortillas: 2 piezas\nCarne molida de res: 120 g\nSalsa de jitomate: 1 taza\n\nEnsalada de pepino (1 porción)\nPepino: 1\nTomates: 2\nCebolla morada: 1/4\nCilantro: 1 puño\nAguacate: 1/3\nJugo de 3 limones: según receta del catálogo\nAceite de oliva: 1 cucharada\nPreparación: Pelar, retirar semillas y picar el pepino; cortar tomate, cebolla, cilantro y aguacate. Mezclar y agregar la vinagreta. Preparar la vinagreta con aceite de oliva y limón, jugo de 1/2 limón, 1 cucharadita de vinagre de manzana, sal con ajo y perejil.",
+        "Comida": "Albóndigas rellenas de queso + ensalada de pepino\nCalabaza: 1 pieza\nCarne molida de res: 120 g\nQueso Oaxaca light: 60 g\nSalsa de jitomate: 1 taza\nTortillas: 2 piezas\n\nEnsalada de pepino (1 porción)\nPepino picado: 1/2 pieza\nCebolla morada: al gusto\nCilantro: al gusto\nAguacate: 1/3 pieza\nQueso panela: 50 g\nJugo de limón: al gusto\nPreparación: Pelar, retirar semillas y picar el pepino; cortar cebolla, cilantro y aguacate. Mezclar.",
         "Colación 2": "Verduras frescas\nJícama: 1 pz\nPepino: 2 pz\nZanahoria: 1 pz",
-        "Cena": "Tacos de pescado en hojas de lechuga\nPescado blanco: 150 g\nCol morada: 1/2 taza\nLimón: al gusto\nHojas de lechuga romana: 4 piezas\nYogurt griego natural: 2 cucharadas"
+        "Cena": "Tacos de pescado en hojas de lechuga\nPescado blanco: 150 g\nHojas de lechuga romana: 4 piezas\nCol morada: 1/2 taza\nYogurt griego natural: 2 cucharadas\nLimón: al gusto"
       },
       "Jueves": {
-        "Desayuno": "Ensalada de pollo con pasta\nProteína al gusto: pollo o atún: 120 g\nArándanos deshidratados: 15 piezas\nManzana picada: 1 pieza\nVerduras al gusto (lechuga, espinaca, zanahoria): 1 taza\nPasta cocida: 1 taza\n\nJugo verde (1 porción)\nPepino, espinaca, apio: 1 taza\nManzana: 1/2 pieza\nAgua: 1 1/2 tazas\nJengibre y jugo de 1 limón: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
+        "Desayuno": "Ensalada de pollo con pasta\nProteína al gusto: pollo o atún: 120 g\nVerduras al gusto (lechuga, espinaca, zanahoria): 1 taza\nArándanos deshidratados: 15 piezas\nPasta cocida: 1 taza\nManzana picada: 1 pieza\n\nJugo verde (1 porción)\nPepino, espinaca, apio: 1 taza\nManzana: 1/2 pieza\nAgua: 1 1/2 tazas\nJengibre y jugo de 1 limón: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Verduras frescas\nJícama: 1 pz\nPepino: 2 pz\nZanahoria: 1 pz",
-        "Comida": "Atún con pasta + ensalada de mango\nAtún de lata: 1 pieza\nVara de apio: 1 pieza\nPasta cocida: 1/2 taza\nZanahoria: 1 pieza\nMayonesa opcional: 2 cucharaditas\n\nEnsalada de mango (1 porción)\nJitomate en cubos: 1 taza\nMango en cubos: 1 taza\nAguacate: 1 taza\nCebolla morada: 1/4\nCilantro: 1 puño\nJugo de 2 limones: según receta del catálogo\nPreparación: Mezclar todos los ingredientes. Agregar la vinagreta. Preparar la vinagreta: mostaza-limón con 1 cucharada de aceite de oliva, jugo de limón, 1 cucharada de mostaza Dijon o normal y sal con ajo.",
+        "Comida": "Atún con pasta + sopa\nAtún de lata: 1 pieza\nZanahoria: 1 pieza\nVara de apio: 1 pieza\nMayonesa opcional: 2 cucharaditas\nPasta cocida: 1/2 taza\n\nSopa de pasta en salsa de tomate (1 porción)\nJitomates: 3 piezas\nCebolla: al gusto\nAjo: al gusto\nAceite de oliva: 1 cucharadita\nSal y pimienta: al gusto\nPasta cocida: 1/2 taza\nPreparación: Licuar el jitomate, cebolla y ajo hasta obtener una mezcla homogénea, sazonar en una olla con el aceite y agregar la pasta.",
         "Colación 2": "Manzana bites\nManzana verde: 1/2\nCrema de cacahuate natural: 1 cda",
-        "Cena": "Bowl de yogurt con manzana\nYogurt griego sin azúcar: 1 taza\nBlueberries: 1/2 taza\nCrema de cacahuate/almendras natural: 1 cda\nManzana: 1 pz\nGranola sin azúcar: 3 cdas"
+        "Cena": "Bowl de yogurt con manzana\nYogurt griego sin azúcar: 1 taza\nManzana: 1 pz\nBlueberries: 1/2 taza\nGranola sin azúcar: 3 cdas\nCrema de cacahuate/almendras natural: 1 cda"
       },
       "Viernes": {
-        "Desayuno": "Huevo revuelto + jugo verde\nHuevo entero: 3 piezas\nEspinaca o verduras al gusto: 1 taza\nAcompaña con tostadas horneadas o 2 tortillas: 2 piezas\nQueso panela: 60 g\nAceite de oliva: 1 cucharadita\n\nJugo verde (1 porción)\nPepino, espinaca, apio: 1 taza\nManzana: 1/2 pieza\nAgua: 1 1/2 tazas\nJengibre y jugo de 1 limón: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
+        "Desayuno": "Huevo revuelto + jugo verde\nHuevo entero: 3 piezas\nQueso panela: 60 g\nEspinaca o verduras al gusto: 1 taza\nAceite de oliva: 1 cucharadita\nAcompaña con tostadas horneadas o 2 tortillas: 2 piezas\n\nJugo verde (1 porción)\nPepino, espinaca, apio: 1 taza\nManzana: 1/2 pieza\nAgua: 1 1/2 tazas\nJengibre y jugo de 1 limón: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Yogurt griego con fresas y almendras\nYogurt griego natural: 170 g\nFresas: 1/2 taza\nAlmendras: 10 piezas",
-        "Comida": "Bistec a la mexicana + ensalada vaquera\nBistec de res o pollo: 130 g\nCebolla blanca: al gusto\nEnsalada mixta: 1 taza\nAceite de oliva: 1 cdita\nJitomate: al gusto\nTortilla de maíz: 2 piezas\n\nEnsalada vaquera (1 porción)\nFrijoles enteros: 1/2 taza\nJalapeños picados: 1 cucharada\nJitomate: según receta del catálogo\nCebolla morada: según receta del catálogo\nTaza de elote amarillo: 1/4\nAguacate: 1/3\nCilantro: según receta del catálogo\nPreparación: Mezclar los ingredientes. Agregar la vinagreta. Preparar la vinagreta con pepita: 1 cucharadita de aceite de oliva con paprika, 1 cucharada de vinagre de manzana, jugo de limón, ajo, sal y pimienta.",
+        "Comida": "Bistec a la mexicana + ensalada vaquera\nBistec de res o pollo: 130 g\nAceite de oliva: 1 cda\nCebolla blanca: al gusto\nJitomate: al gusto\nEnsalada mixta: 1 taza\nTortilla de maíz: 2 piezas\n\nEnsalada mexa (1 porción)\nNopal cocido: 1/2 taza\nAguacate: 1/3 pieza\nCilantro y cebolla: al gusto\nJitomate: al gusto\nPreparación: Mezclar los ingredientes.",
         "Colación 2": "Verduras frescas\nJícama: 1 pz\nPepino: 2 pz\nZanahoria: 1 pz",
-        "Cena": "Ensalada de pollo con pasta\nProteína al gusto: pollo o atún: 120 g\nArándanos deshidratados: 15 piezas\nManzana picada: 1 pieza\nVerduras al gusto (lechuga, espinaca, zanahoria): 1 taza\nPasta cocida: 1 taza"
+        "Cena": "Ensalada de pollo con pasta\nProteína al gusto: pollo o atún: 120 g\nVerduras al gusto (lechuga, espinaca, zanahoria): 1 taza\nArándanos deshidratados: 15 piezas\nPasta cocida: 1 taza\nManzana picada: 1 pieza"
       },
       "Sábado": {
-        "Desayuno": "Ensalada de pollo con pasta\nProteína al gusto: pollo o atún: 120 g\nArándanos deshidratados: 15 piezas\nManzana picada: 1 pieza\nVerduras al gusto (lechuga, espinaca, zanahoria): 1 taza\nPasta cocida: 1 taza\n\nGuayaba smoothie (1 porción)\nGuayabas congeladas: 4\nLeche de coco: 1 taza\nVainilla: 1 cucharadita\nCanela en polvo: según receta del catálogo\nEndulzante y hielo: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
+        "Desayuno": "Ensalada de pollo con pasta\nProteína al gusto: pollo o atún: 120 g\nVerduras al gusto (lechuga, espinaca, zanahoria): 1 taza\nArándanos deshidratados: 15 piezas\nPasta cocida: 1 taza\nManzana picada: 1 pieza\n\nGuayaba smoothie (1 porción)\nGuayabas: 3 piezas\nAgua: 1 1/2 tazas\nCanela en polvo: al gusto\nNaranja: 2 piezas\nPepino: 1/2 pieza\nAvena: 2 cucharadas\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Manzana bites\nManzana verde: 1/2\nCrema de cacahuate natural: 1 cda",
-        "Comida": "Básica 1 + ensalada de nopales con queso\nElige una opción: pollo, bistec de res, filete de pescado: 130 g\nArroz, pasta o quinoa: 1/4 taza\nTortilla o tostada horneada: 2 piezas\nVerduras frescas o sopa de verduras: 1 taza\nAguacate: 40 g\n\nEnsalada de nopales con queso (1 porción)\nNopales: 1 taza\nJitomate: 1/3 pz\nCebolla: al gusto\nQueso: 60 g\nPreparación: Mezclar los ingredientes escurridos y cortados. Agregar la vinagreta. Preparar la vinagreta con limón, jugo de limón, sal, pimienta, un chorrito de aceite de oliva y ajo en polvo.",
+        "Comida": "Básica 1 + ensalada de nopales con queso\nElige una opción: pollo, bistec de res, filete de pescado: 130 g\nArroz, pasta o quinoa: 1/4 taza\nTortilla o tostada horneada: 2 piezas\nVerduras frescas o sopa de verduras: 1 taza\nAguacate: 40 g\n\nEnsalada de nopales con queso (1 porción)\nNopales cocidos: 1 taza\nJitomate y cebolla: al gusto\nAguacate: 1/3 pieza\nQueso panela: 50 g\nPreparación: Mezclar los ingredientes escurridos y cortados. Agregar la vinagreta. Preparar la vinagreta con limón, jugo de limón, sal, pimienta, un chorrito de aceite de oliva y ajo en polvo.",
         "Colación 2": "Snack opción 1\nFruta: 1 porción\nNueces: 1/4 taza",
-        "Cena": "Tostadas de atún\nAtún en agua: 1 lata\nAguacate: 1/3 pieza\nSal, limón y condimentos: al gusto\nPepino y jícama en cubos: 1 taza\nQueso panela: 50 g\nTostadas horneadas: 3 piezas"
+        "Cena": "Tostadas de atún\nAtún en agua: 1 lata\nPepino y jícama en cubos: 1 taza\nAguacate: 1/3 pieza\nQueso panela: 50 g\nSal, limón y condimentos: al gusto\nTostadas horneadas: 3 piezas"
       },
       "Domingo": {
-        "Desayuno": "Omelette de verduras + fruta\nHuevos: 3\nTortilla o tostada horneada: 2 piezas\nEspinaca o verduras al gusto: 1 taza\nFruta picada: 1 taza\n\nFibra smoothie (1 porción)\nPapaya en trozos: 1/2 taza\nChía o linaza: 1 cucharada\nCanela: al gusto\nAgua o leche de avena: 1 taza\nVainilla: 1 cucharadita\nPreparación: Licuar o procesar todos los ingredientes.",
+        "Desayuno": "Omelette de verduras + fruta con yogurt\nHuevo: 3 piezas\nEspinaca o verduras al gusto: 1 taza\nTortilla o tostada horneada: 2 piezas\nFruta picada: 1 taza\nYogurt: 1/2 taza\nPreparación del platillo: Forma una tortilla con el huevo y rellena con los vegetales. Acompaña con la fruta picada y yogurt.\n\nFibra smoothie (1 porción)\nPapaya en trozos: 1/2 taza\nAgua o leche de avena: 1 taza\nChía o linaza: 1 cucharada\nVainilla: 1 cucharadita\nCanela: al gusto\nPreparación: Licuar o procesar todos los ingredientes.",
         "Colación 1": "Verduras frescas\nJícama: 1 pz\nPepino: 2 pz\nZanahoria: 1 pz",
-        "Comida": "Básica 1\nElige una opción: pollo, bistec de res, filete de pescado: 130 g\nArroz, pasta o quinoa: 1/4 taza\nTortilla o tostada horneada: 2 piezas\nVerduras frescas o sopa de verduras: 1 taza\nAguacate: 40 g\n\nEnsalada country (1 porción)\nLechuga romana: según receta del catálogo\nJitomate: según receta del catálogo\nCebolla morada: según receta del catálogo\nTaza de elote en grano: 1/4\nAguacate: 1/3\nFrijoles enteros: 1/2 taza\nPreparación: Cocinar los frijoles previamente remojados. Mezclar los ingredientes y el aderezo. Preparar la vinagreta con chipotle, 1 cucharada de yogurt griego natural, chipotle al gusto, sal y pimienta.",
+        "Comida": "Básica 1\nElige una opción: pollo, bistec de res, filete de pescado: 130 g\nArroz, pasta o quinoa: 1/4 taza\nTortilla o tostada horneada: 2 piezas\nVerduras frescas o sopa de verduras: 1 taza\nAguacate: 40 g\n\nSopa de pasta en salsa de tomate (1 porción)\nJitomates: 3 piezas\nCebolla: al gusto\nAjo: al gusto\nAceite de oliva: 1 cucharadita\nSal y pimienta: al gusto\nPasta cocida: 1/2 taza\nPreparación: Licuar el jitomate, cebolla y ajo hasta obtener una mezcla homogénea, sazonar en una olla con el aceite y agregar la pasta.",
         "Colación 2": "Yogurt griego con fresas y almendras\nYogurt griego natural: 170 g\nFresas: 1/2 taza\nAlmendras: 10 piezas",
         "Cena": "Tostadas de verdura y queso\nTostada horneada: 2 pz\nVerduras: 1 taza\nQueso panela: 80 g\nAguacate: 1/3 pz"
       }
     }
   },
   "karina": {
-    "recomendacionesespeciales": {},
-    "plan": {}
+    "recomendacionesespeciales": {
+      "generales": [
+        "Respetar las cantidades establecidas.",
+        "Comer solo lo que está en el plan de alimentación.",
+        "Realizar los 5 tiempos de comida.",
+        "Beber 2 litros de agua natural al día sin contar té, café y agua de desayuno, comida y cena.",
+        "Realizar 80 minutos de ejercicio diariamente."
+      ]
+    },
+    "plan": {
+      "Lunes": {
+        "Desayuno": "Licuado tropical\nPapaya: 1/2 taza\nPiña: 1/2 rebanada\nLinaza: 1 cucharada\nChía: 1 cucharada\nPepino: 1/2 pieza\nEspinaca: 1 puño\nAgua: 1 1/2 tazas\n\nAtún con verduras\nAtún: 1 lata\nVerduras al gusto (chile, cebolla, jitomate, pepino)\nTostadas horneadas: 2 piezas",
+        "Colación 1": "Tostado de huevo\nTostada horneada Sanissimo: 2 piezas\nClara de huevo cocida: 1/2 taza\nAguacate: 1/4 pieza\nVerduras al gusto: 1 taza",
+        "Comida": "Filete de pescado empapelado\nFilete de pescado (tilapia): 2 piezas pequeñas o 1 grande\nVerduras al gusto (pepino, jícama, zanahoria): 1 taza\nSopa de verduras: 1 taza\nTortillas: 3 piezas",
+        "Colación 2": "Fruta al gusto: 1 taza\nYogurt: 1 pieza\nAlmendras: 5 piezas",
+        "Cena": "Bowl de avena\nFresas: 8 piezas\nAvena: 1/2 taza\nLeche: 1 taza\nAlmendra fileteada: 2 cucharas\nCanela y vainilla: al gusto\nPreparación: Coloca en el microondas por 2 min la leche y la avena y decora con el resto de los ingredientes"
+      },
+      "Martes": {
+        "Desayuno": "Licuado\nLeche baja en grasa o bebida vegetal de almendra o avena sin azúcar: 1 1/2 tazas\nBlueberries: 1/4 taza o fresas: 6 piezas\nPlátano: 1/3 pieza\nNuez: 4 mitades\nAvena: 2 cucharadas\nCanela y vainilla: al gusto\n\nGalletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
+        "Colación 1": "Omelette Popeye\nEspinacas y champiñones\nClaras de huevo: 1/4 taza + 1 huevo\nSal y pimienta: una pizca\nAceite: 1 cucharadita (5 ml)\nQueso Oaxaca light: 30 g\nTortillas: 2 piezas\nFruta picada: 1 taza\nPreparación: Revolver en un plato hondo las espinacas y champiñones con las claras y el huevo. En un sartén con el aceite esparcir la mezcla y agregar el queso Oaxaca light. Doblar formando un omelette y sellar por ambos lados hasta que esté bien cocido. Acompañar con 2 tortillas.",
+        "Comida": "Calabacitas con queso\nCalabaza: 2 piezas regulares\nCebolla blanca: al gusto\nAceite de oliva: 1 cucharadita\nJitomate: 2 piezas\nQueso panela: 70 g\nElotitos: 1/4 taza\nBistec de res a la mexicana: 90 g\nTortillas de maíz: 3 piezas",
+        "Colación 2": "Verduras ralladas: 1 taza\nZanahoria, pepino y jícama\nPistaches: 10 piezas",
+        "Cena": "Sándwich básico\nPan Bimbo Cero: 2 rebanadas\nRodajas de pepino y jitomate: 1/4 taza\nQueso panela: 50 g\nAguacate: 1/3 pieza\n\nLicuado: 1/2 porción del de la mañana"
+      },
+      "Miércoles": {
+        "Desayuno": "Jugo verde\nPerejil: 1 ramita\nPepino: 1/4 pieza\nEspinaca: 1/2 taza\nNopal pequeño: 1/2 pieza\nJugo de 2 naranjas\nAgua: 1 1/2 tazas\n\nAtún con verduras\nAtún: 1 lata\nVerduras al gusto (chile, cebolla, jitomate, pepino)\nPan Bimbo: 2 rebanadas\nAguacate: 1 rebanada",
+        "Colación 1": "Banana Split con coco\nPlátano: 1/2 pieza\nYogurt griego natural: 1 pieza\nFrutos rojos: 1/2 taza\nCoco rallado: 1 cucharada\nAlmendras fileteadas: 1 cucharada\n\nHuevo estrellado: 1 pieza\nNopal cocido: 1 pieza",
+        "Comida": "Chilaquiles verdes\nTotopos horneados Sanissimo: 1 taza\nSalsa verde: 1 taza\nCrema: 1 cucharadita\nQueso rallado panela: 3 cucharadas\nBistec a la plancha o cecina: 90 g\nLechuga: 1/2 taza\n\nEnsalada mixta: 1 taza\nLechuga, pepino, jitomate, jícama, etc.\nAguacate: 50 g",
+        "Colación 2": "Fruta al gusto: 1 taza\nAlmendras: 5 piezas",
+        "Cena": "Ceviche de panela\nQueso panela en cubos: 60 g\nAguacate: 1/2 pieza\nPepino, cilantro, cebolla y picante: al gusto\nJugo de 2 limones\nPreparación: Mezcla y acompaña con 2 paquetes de Salmas.\n\nLicuado"
+      },
+      "Jueves": {
+        "Desayuno": "Licuado de fibra\nPapaya: 1/4 taza\nManzana: 1/2 pieza\nAvena: 2 cucharadas\nAlmendras: 5 piezas\nAgua: 1/2 taza\n\nEnsalada de nopales con queso\nNopal cocido: 1 pieza\nQueso panela en cubos: 60 g\nCebolla: al gusto\nTortilla: 1 pieza",
+        "Colación 1": "Ensalada de pepino y aguacate\nPepino picado: 1/2 pieza\nAguacate: 1/2 pieza\nQueso panela: 70 g\nSal y limón: al gusto\nTostadas horneadas: 2 piezas",
+        "Comida": "Carne de res en salsa verde con habas y chícharos\nLomo de res sin grasa: 120 g\nChícharos: 1/2 taza\nSalsa verde: al gusto\nArroz con verduras: 3/4 taza\nTortillas de maíz: 2 piezas\nAguacate: 1/4 pieza\nEnsalada: 1 taza",
+        "Colación 2": "Galletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
+        "Cena": "Cereal con leche\nCereal Kellogg's: 1 taza\nAvena: 2 cucharadas\nLeche: 1 1/2 tazas\nManzana picada: 1 taza\nNuez: 4 mitades"
+      },
+      "Viernes": {
+        "Desayuno": "Licuado tropical\nPapaya: 1/2 taza\nPiña: 1/2 rebanada\nLinaza: 1 cucharada\nChía: 1 cucharada\nPepino: 1/2 pieza\nEspinaca: 1 puño\nAgua: 1 1/2 tazas\n\nAtún con verduras\nAtún: 1 lata\nVerduras al gusto (chile, cebolla, jitomate, pepino)\nTostadas horneadas: 2 piezas",
+        "Colación 1": "Mix de frutas con yogurt y semillas\nFruta picada al gusto: 1 taza\nYogurt: 1 pieza\nAlmendra fileteada: 1 cucharada\nChía: 1 cucharadita\nNuez: 2 mitades\n\nHuevo estrellado: 1 pieza\nNopal cocido: 1 pieza",
+        "Comida": "Sopes saludables\nSopes delgados del tamaño de la palma de la mano: 2 piezas\nFrijoles: 2 cucharadas\nPollo guisado al gusto: 1/3 taza\nQueso rallado: 2 cucharadas\nCrema: 2 cucharaditas\nSalsa: al gusto\nSopa de verduras: 1 taza (zanahoria, poro, calabaza, brócoli)",
+        "Colación 2": "Verduras ralladas: 1 taza\nZanahoria, pepino y jícama\nPistaches: 10 piezas",
+        "Cena": "Bowl de avena\nFresas: 8 piezas\nAvena: 1/2 taza\nLeche: 1 taza\nAlmendra fileteada: 2 cucharas\nCanela y vainilla: al gusto\nPreparación: Coloca en el microondas por 2 min la leche y la avena y decora con el resto de los ingredientes"
+      },
+      "Sábado": {
+        "Desayuno": "Licuado\nLeche baja en grasa o bebida vegetal de almendra o avena sin azúcar: 1 1/2 tazas\nBlueberries: 1/4 taza o fresas: 6 piezas\nPlátano: 1/3 pieza\nNuez: 4 mitades\nAvena: 2 cucharadas\nCanela y vainilla: al gusto\n\nGalletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
+        "Colación 1": "Ensalada de nopales con queso\nNopal cocido: 1 pieza\nQueso panela en cubos: 60 g\nCebolla: al gusto\nTortilla: 1 pieza\nHuevo estrellado: 1 pieza",
+        "Comida": "Milanesas de carne con ensalada\nCarne molida de res: 90 g\nClaras de huevo: 2 piezas\nCilantro y cebolla: al gusto\nPreparación: Mezclar la carne con las claras, cilantro y cebolla, sin agregar pan molido. Cocinar en sartén antiadherente sin aceite o en comal.\n\nEnsalada de manzana y zanahoria\nManzana en cubos: 1 pieza\nZanahoria rallada: 5 piezas\nNuez: 4 mitades\nYogurt: 2 cucharadas\nPreparación: Mezcla los ingredientes y disfruta.\n\nArroz cocido: 3/4 taza\nTortillas de maíz: 2 piezas\nAguacate: 1/3 pieza",
+        "Colación 2": "Galletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
+        "Cena": "Cereal con leche\nCereal Kellogg's: 1 taza\nAvena: 2 cucharadas\nLeche: 1 1/2 tazas\nManzana picada: 1 taza\nNuez: 4 mitades"
+      },
+      "Domingo": {
+        "Desayuno": "",
+        "Colación 1": "",
+        "Comida": "",
+        "Colación 2": "",
+        "Cena": ""
+      }
+    }
   },
   "ingredientes": [
+    "Aceite",
     "Aceite de oliva",
-    "Aceite de oliva extra virgen",
-    "Aguacate",
     "Agua",
+    "Aguacate",
     "Ajo",
+    "Almendra fileteada",
     "Almendras",
     "Apio",
-    "Arándanos deshidratados",
     "Arroz",
+    "Arándanos deshidratados",
     "Atún",
-    "Blueberries",
+    "Avena",
+    "Bebida vegetal de almendra o avena sin azúcar",
     "Bistec de res",
+    "Blueberries",
+    "Brócoli",
     "Calabacita",
     "Calabaza",
     "Canela",
@@ -90,43 +210,54 @@
     "Cebolla",
     "Cebolla blanca",
     "Cebolla morada",
+    "Cecina",
+    "Cereal Kellogg's",
     "Champiñones",
+    "Chile",
     "Chía",
+    "Chícharos",
     "Cilantro",
+    "Clara de huevo",
+    "Coco rallado",
     "Col morada",
+    "Crema",
     "Crema de cacahuate natural",
-    "Crema de cacahuate o almendras natural",
-    "Ejotes",
-    "Elote amarillo",
-    "Endulzante",
+    "Crema de cacahuate/almendras natural",
+    "Elotitos",
     "Espinaca",
+    "Filete de pescado",
+    "Filete de pescado (tilapia)",
     "Fresas",
-    "Frijoles enteros",
+    "Frijoles",
     "Fruta",
+    "Frutos rojos",
+    "Galletas de arroz",
     "Granola sin azúcar",
-    "Guayabas congeladas",
+    "Guayabas",
     "Hojas de lechuga romana",
     "Huevo",
-    "Jalapeños",
     "Jengibre",
-    "Jícama",
     "Jitomate",
     "Jitomate cherry",
-    "Laurel",
+    "Jícama",
+    "Leche",
+    "Leche baja en grasa",
     "Leche de avena",
-    "Leche de coco",
     "Lechuga",
     "Limón",
     "Linaza",
-    "Mango",
+    "Lomo de res",
     "Manzana",
     "Manzana verde",
     "Mayonesa",
     "Mezcla de lechugas",
-    "Mostaza",
     "Naranja",
+    "Nopal",
     "Nopales",
     "Nueces",
+    "Nuez",
+    "Pan Bimbo",
+    "Pan Bimbo Cero",
     "Pan tostado o tostadas horneadas",
     "Papaya",
     "Pasta",
@@ -134,20 +265,34 @@
     "Pepino",
     "Perejil",
     "Pescado blanco",
-    "Pimiento morrón",
+    "Picante",
     "Pimienta",
-    "Quinoa",
+    "Pimiento",
+    "Pistaches",
+    "Piña",
+    "Pollo",
+    "Poro",
+    "Puré de tomate natural",
     "Queso Oaxaca light",
     "Queso panela",
-    "Repollo blanco",
+    "Queso rallado",
+    "Quinoa",
     "Sal",
+    "Salmas",
     "Salsa de jitomate",
     "Salsa soya baja en sodio",
+    "Salsa verde",
+    "Sopa de verduras",
+    "Sopes",
+    "Tortilla",
     "Tortilla de maíz",
+    "Tostadas horneadas",
+    "Totopos horneados Sanissimo",
     "Vainilla",
     "Verduras",
-    "Vinagre de manzana",
+    "Yogurt",
     "Yogurt griego natural",
+    "Yogurt griego natural sin azúcar",
     "Zanahoria"
   ]
 }
