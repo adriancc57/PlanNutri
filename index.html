@@ -167,9 +167,6 @@
 
 <body>
   <div class="container">
-    <h1>Plan de alimentación</h1>
-    <h2 id="persona-titulo">Angelica</h2>
-
     <div>
       <select id="persona" aria-label="Selecciona una persona">
         <option value="angelica">Angelica</option>
@@ -298,8 +295,7 @@
 
     function actualizarPersona() {
       personaSeleccionada = document.getElementById("persona").value;
-      document.getElementById("persona-titulo").textContent =
-        PERSONA_LABELS[personaSeleccionada] || PERSONA_LABELS.angelica;
+      
       document.getElementById("pdf-link").href =
         `ver-pdf.html?persona=${encodeURIComponent(personaSeleccionada)}`;
       renderRecomendaciones();
