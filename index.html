@@ -220,6 +220,23 @@
     let ingredientes = [];
     let personaSeleccionada = "angelica";
 
+    function inicializarSelectoresFecha() {
+      const ahora = new Date();
+      const dias = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+      const hora = ahora.getHours();
+      let comida = "Desayuno";
+
+      if (hora >= 10 && hora < 13) comida = "Colación 1";
+      else if (hora >= 13 && hora < 16) comida = "Comida";
+      else if (hora >= 16 && hora < 19) comida = "Colación 2";
+      else if (hora >= 19 && hora < 22) comida = "Cena";
+
+      document.getElementById("dia").value = dias[ahora.getDay()];
+      document.getElementById("comida").value = comida;
+    }
+
+    inicializarSelectoresFecha();
+
     fetch("plan.json")
       .then(r => r.json())
       .then(data => {
