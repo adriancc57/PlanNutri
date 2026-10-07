@@ -11,46 +11,46 @@
     },
     "plan": {
       "Lunes": {
-        "Desayuno": "Licuado tropical\nPapaya: 1/2 taza\nPiña: 1/2 rebanada\nLinaza: 1 cucharada\nChía: 1 cucharada\nPepino: 1/2 pieza\nEspinaca: 1 puño\nAgua: 1 1/2 tazas",
-        "Colación 1": "Tostado de huevo\nTostada horneada Sanissimo: 2 piezas\nClara de huevo cocida: 1/2 taza\nAguacate: 1/4 pieza\nVerduras al gusto: 1 taza",
-        "Comida": "Filete de pescado empapelado\nFilete de pescado (tilapia): 2 piezas pequeñas o 1 grande\nVerduras al gusto (pepino, jícama, zanahoria): 1 taza\nSopa de verduras: 1 taza\nTortillas: 3 piezas",
-        "Colación 2": "Fruta al gusto: 1 taza\nYogurt: 1 pieza\nAlmendras: 5 piezas",
-        "Cena": "Bowl de avena\nFresas: 8 piezas\nAvena: 1/2 taza\nLeche: 1 taza\nAlmendra fileteada: 2 cucharas\nCanela y vainilla: al gusto\nPreparación: Coloca en el microondas por 2 min la leche y la avena y decora con el resto de los ingredientes"
+        "Desayuno": "Jugo verde\nPerejil: 1/3 de taza\nPepino: 1/2 pieza\nEspinaca: 1/2 taza\nNopal: 1/2 pieza\nJugo de 1 naranja\nAgua: 1 1/2 tazas",
+        "Colación 1": "Huevos con vegetales\nHuevo: 2 piezas\nClaras de huevo: 1/4 taza\nAceite de oliva: 1 cucharadita\nCebolla blanca: al gusto\nJitomate o vegetales al gusto: 1 pieza\nCilantro: al gusto\nFruta picada: 1 taza",
+        "Comida": "Básica\nElige una opción de proteína:\nPollo, bistec de res o cerdo, salmón o pescado: 120 g\nHuevo: 3 piezas\nAtún: 1 lata\n\nElige una opción de carbohidrato:\nPasta o arroz: 1/2 taza\nTortillas de maíz: 2 piezas\nTostadas horneadas: 2 piezas\n\nPreparación: Cocina tu proteína al gusto (a la plancha, a la mexicana, en salsa verde o roja) y acompaña con 1 taza de verduras al gusto (sopa, verduras salteadas, etc.) y 50 g de aguacate.",
+        "Colación 2": "Gelatina de agua: 1/2 taza\nAlmendras: 5 piezas",
+        "Cena": "Avena mix\nAvena: 1/4 de taza\nAmaranto: 2 cucharadas\nChía: 1 cucharada\nNuez: 3 mitades\nAlmendra fileteada: 1 cucharada\nLeche vegetal: 1 taza\nFresas rebanadas: 8 piezas\nPreparación: Colocar en un vaso y dejar reposar durante la tarde."
       },
       "Martes": {
-        "Desayuno": "Licuado\nLeche baja en grasa o bebida vegetal de almendra o avena sin azúcar: 1 1/2 tazas\nBlueberries: 1/4 taza o fresas: 6 piezas\nPlátano: 1/3 pieza\nNuez: 4 mitades\nAvena: 2 cucharadas\nCanela y vainilla: al gusto",
-        "Colación 1": "Omelette Popeye\nEspinacas y champiñones\nClaras de huevo: 1/4 taza + 1 huevo\nSal y pimienta: una pizca\nAceite: 1 cucharadita (5 ml)\nQueso Oaxaca light: 30 g\nTortillas: 2 piezas\nFruta picada: 1 taza\nPreparación: Revolver en un plato hondo las espinacas y champiñones con las claras y el huevo. En un sartén con el aceite esparcir la mezcla y agregar el queso Oaxaca light. Doblar formando un omelette y sellar por ambos lados hasta que esté bien cocido. Acompañar con 2 tortillas.",
-        "Comida": "Calabacitas con queso\nCalabaza: 2 piezas regulares\nCebolla blanca: al gusto\nAceite de oliva: 1 cucharadita\nJitomate: 2 piezas\nQueso panela: 70 g\nElotitos: 1/4 taza\nBistec de res a la mexicana: 90 g\nTortillas de maíz: 3 piezas",
-        "Colación 2": "Verduras ralladas: 1 taza\nZanahoria, pepino y jícama\nPistaches: 10 piezas",
-        "Cena": "Sándwich básico\nPan Bimbo Cero: 2 rebanadas\nRodajas de pepino y jitomate: 1/4 taza\nQueso panela: 50 g\nAguacate: 1/3 pieza\n\nLicuado: 1/2 porción del de la mañana"
+        "Desayuno": "Licuado proteínas vegetales\nLeche: 1 taza\nAlmendras: 5 piezas\nAmaranto: 2 cucharadas\nNuez: 6 mitades\nAvena: 1 cucharada\nCanela y vainilla: al gusto",
+        "Colación 1": "Nopales con queso y pollo\nFajitas de pollo cocidas: 1/2 taza\nNopal: 2 piezas\nQueso panela en cubos: 1/4 de taza\nSalmas: 1 paquetito",
+        "Comida": "Calabacitas con queso\nCalabaza: 2 piezas regulares\nCebolla blanca: al gusto\nAceite de oliva: 1 cucharadita\nJitomate: 2 piezas\nQueso panela: 70 g\nElotitos: 1/4 taza\nPechuga de pollo a la plancha: 90 g",
+        "Colación 2": "Manzana: 1 pieza\nYogurt: 1 pieza",
+        "Cena": "Tostada de huevo\nTostada horneada: 2 piezas\nHuevo cocido: 2 piezas\nAguacate: 1/4 de pieza\nVerduras al gusto: 1 taza"
       },
       "Miércoles": {
-        "Desayuno": "Jugo verde\nPerejil: 1 ramita\nPepino: 1/4 pieza\nEspinaca: 1/2 taza\nNopal pequeño: 1/2 pieza\nJugo de 2 naranjas\nAgua: 1 1/2 tazas",
-        "Colación 1": "Banana Split con coco\nPlátano: 1/2 pieza\nYogurt griego natural: 1 pieza\nFrutos rojos: 1/2 taza\nCoco rallado: 1 cucharada\nAlmendras fileteadas: 1 cucharada\n\nHuevo estrellado: 1 pieza\nNopal cocido: 1 pieza",
-        "Comida": "Chilaquiles verdes\nTotopos horneados Sanissimo: 1 taza\nSalsa verde: 1 taza\nCrema: 1 cucharadita\nQueso rallado panela: 3 cucharadas\nBistec a la plancha o cecina: 90 g\nLechuga: 1/2 taza\n\nEnsalada mixta: 1 taza\nLechuga, pepino, jitomate, jícama, etc.\nAguacate: 50 g",
-        "Colación 2": "Fruta al gusto: 1 taza\nAlmendras: 5 piezas",
-        "Cena": "Ceviche de panela\nQueso panela en cubos: 60 g\nAguacate: 1/2 pieza\nPepino, cilantro, cebolla y picante: al gusto\nJugo de 2 limones\nPreparación: Mezcla y acompaña con 2 paquetes de Salmas.\n\nLicuado"
+        "Desayuno": "Jugo verde\nPerejil: 1/3 de taza\nPepino: 1/2 pieza\nEspinaca: 1/2 taza\nNopal: 1/2 pieza\nJugo de 1 naranja\nAgua: 1 1/2 tazas",
+        "Colación 1": "Huevos con vegetales\nHuevo: 2 piezas\nClaras de huevo: 1/4 taza\nAceite de oliva: 1 cucharadita\nCebolla blanca: al gusto\nJitomate o vegetales al gusto: 1 pieza\nCilantro: al gusto\nFruta picada: 1 taza",
+        "Comida": "Básica\nElige una opción de proteína:\nPollo, bistec de res o cerdo, salmón o pescado: 120 g\nHuevo: 3 piezas\nAtún: 1 lata\n\nElige una opción de carbohidrato:\nPasta o arroz: 1/2 taza\nTortillas de maíz: 2 piezas\nTostadas horneadas: 2 piezas\n\nPreparación: Cocina tu proteína al gusto (a la plancha, a la mexicana, en salsa verde o roja) y acompaña con 1 taza de verduras al gusto (sopa, verduras salteadas, etc.) y 50 g de aguacate.",
+        "Colación 2": "Gelatina de agua: 1/2 taza\nAlmendras: 5 piezas",
+        "Cena": "Ensalada mixta\nEspinaca: 1 taza\nLechuga: 1 taza\nQueso panela: 60 g\nAguacate: 1/3 de pieza\nAlmendras: 5 piezas\nPechuga de pollo a la plancha: 100 g o 1 lata de atún"
       },
       "Jueves": {
-        "Desayuno": "Licuado de fibra\nPapaya: 1/4 taza\nManzana: 1/2 pieza\nAvena: 2 cucharadas\nAlmendras: 5 piezas\nAgua: 1/2 taza",
-        "Colación 1": "Ensalada de pepino y aguacate\nPepino picado: 1/2 pieza\nAguacate: 1/2 pieza\nQueso panela: 70 g\nSal y limón: al gusto\nTostadas horneadas: 2 piezas",
-        "Comida": "Carne de res en salsa verde con habas y chícharos\nLomo de res sin grasa: 120 g\nChícharos: 1/2 taza\nSalsa verde: al gusto\nArroz con verduras: 3/4 taza\nTortillas de maíz: 2 piezas\nAguacate: 1/4 pieza\nEnsalada: 1 taza",
-        "Colación 2": "Galletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
-        "Cena": "Cereal con leche\nCereal Kellogg's: 1 taza\nAvena: 2 cucharadas\nLeche: 1 1/2 tazas\nManzana picada: 1 taza\nNuez: 4 mitades"
+        "Desayuno": "Licuado proteínas vegetales\nLeche: 1 taza\nAlmendras: 5 piezas\nAmaranto: 2 cucharadas\nNuez: 6 mitades\nAvena: 1 cucharada\nCanela y vainilla: al gusto",
+        "Colación 1": "Sándwich de pollo\nPan Bimbo: 2 rebanadas\nPechuga de pollo a la plancha: 1 pieza\nLechuga, pepino y jitomate: al gusto\nQueso panela: 30 g\nFruta picada: 1 taza",
+        "Comida": "Enchiladas de pollo blanco\nTortilla de maíz: 3 piezas\nPollo blanco: 150 g\nQueso panela rallado: 2 cucharadas\nLechuga: 1/2 taza\nCaldillo/chile: libre\nAguacate: 40 g\n\nEnsalada verde\nMix de lechugas: 1 taza\nManzana en cubos: 1 pieza\nAlmendra fileteada: 2 cucharadas",
+        "Colación 2": "Manzana: 1 pieza\nYogurt: 1 pieza",
+        "Cena": "Nopales con queso y pollo\nFajitas de pollo cocidas: 1/2 taza\nNopal: 2 piezas\nQueso panela en cubos: 1/4 de taza\nSalmas: 1 paquetito"
       },
       "Viernes": {
-        "Desayuno": "Licuado tropical\nPapaya: 1/2 taza\nPiña: 1/2 rebanada\nLinaza: 1 cucharada\nChía: 1 cucharada\nPepino: 1/2 pieza\nEspinaca: 1 puño\nAgua: 1 1/2 tazas",
-        "Colación 1": "Mix de frutas con yogurt y semillas\nFruta picada al gusto: 1 taza\nYogurt: 1 pieza\nAlmendra fileteada: 1 cucharada\nChía: 1 cucharadita\nNuez: 2 mitades\n\nHuevo estrellado: 1 pieza\nNopal cocido: 1 pieza",
-        "Comida": "Sopes saludables\nSopes delgados del tamaño de la palma de la mano: 2 piezas\nFrijoles: 2 cucharadas\nPollo guisado al gusto: 1/3 taza\nQueso rallado: 2 cucharadas\nCrema: 2 cucharaditas\nSalsa: al gusto\nSopa de verduras: 1 taza (zanahoria, poro, calabaza, brócoli)",
-        "Colación 2": "Verduras ralladas: 1 taza\nZanahoria, pepino y jícama\nPistaches: 10 piezas",
-        "Cena": "Bowl de avena\nFresas: 8 piezas\nAvena: 1/2 taza\nLeche: 1 taza\nAlmendra fileteada: 2 cucharas\nCanela y vainilla: al gusto\nPreparación: Coloca en el microondas por 2 min la leche y la avena y decora con el resto de los ingredientes"
+        "Desayuno": "Jugo verde\nPerejil: 1/3 de taza\nPepino: 1/2 pieza\nEspinaca: 1/2 taza\nNopal: 1/2 pieza\nJugo de 1 naranja\nAgua: 1 1/2 tazas",
+        "Colación 1": "Tostada de huevo\nTostada horneada: 2 piezas\nHuevo cocido: 2 piezas\nAguacate: 1/4 de pieza\nVerduras al gusto: 1 taza",
+        "Comida": "Filete de pescado empapelado\nFilete de pescado (tilapia): 2 piezas\nVerduras al gusto: 1 taza\nPasta cocida: 1/2 taza\nArándanos: 10 piezas\nAlmendra fileteada: 1 cucharada\nPiña en cubos: 1/4 de taza\nTortilla: 2 piezas",
+        "Colación 2": "Gelatina de agua: 1/2 taza\nAlmendras: 5 piezas",
+        "Cena": "Avena mix\nAvena: 1/4 de taza\nAmaranto: 2 cucharadas\nChía: 1 cucharada\nNuez: 3 mitades\nAlmendra fileteada: 1 cucharada\nLeche vegetal: 1 taza\nFresas rebanadas: 8 piezas\nPreparación: Colocar en un vaso y dejar reposar durante la tarde."
       },
       "Sábado": {
-        "Desayuno": "Licuado\nLeche baja en grasa o bebida vegetal de almendra o avena sin azúcar: 1 1/2 tazas\nBlueberries: 1/4 taza o fresas: 6 piezas\nPlátano: 1/3 pieza\nNuez: 4 mitades\nAvena: 2 cucharadas\nCanela y vainilla: al gusto",
-        "Colación 1": "Ensalada de nopales con queso\nNopal cocido: 1 pieza\nQueso panela en cubos: 60 g\nCebolla: al gusto\nTortilla: 1 pieza\nHuevo estrellado: 1 pieza",
-        "Comida": "Milanesas de carne con ensalada\nCarne molida de res: 90 g\nClaras de huevo: 2 piezas\nCilantro y cebolla: al gusto\nPreparación: Mezclar la carne con las claras, cilantro y cebolla, sin agregar pan molido. Cocinar en sartén antiadherente sin aceite o en comal.\n\nEnsalada de manzana y zanahoria\nManzana en cubos: 1 pieza\nZanahoria rallada: 5 piezas\nNuez: 4 mitades\nYogurt: 2 cucharadas\nPreparación: Mezcla los ingredientes y disfruta.\n\nArroz cocido: 3/4 taza\nTortillas de maíz: 2 piezas\nAguacate: 1/3 pieza",
-        "Colación 2": "Galletas de arroz: 4 piezas\nYogurt: 4 cucharadas\nFresas rebanadas: al gusto",
-        "Cena": "Cereal con leche\nCereal Kellogg's: 1 taza\nAvena: 2 cucharadas\nLeche: 1 1/2 tazas\nManzana picada: 1 taza\nNuez: 4 mitades"
+        "Desayuno": "Jugo verde\nPerejil: 1/3 de taza\nPepino: 1/2 pieza\nEspinaca: 1/2 taza\nNopal: 1/2 pieza\nJugo de 1 naranja\nAgua: 1 1/2 tazas",
+        "Colación 1": "Ensalada mixta\nEspinaca: 1 taza\nLechuga: 1 taza\nQueso panela: 60 g\nAguacate: 1/3 de pieza\nAlmendras: 5 piezas\nPechuga de pollo a la plancha: 100 g o 1 lata de atún",
+        "Comida": "Básica\nElige una opción de proteína:\nPollo, bistec de res o cerdo, salmón o pescado: 120 g\nHuevo: 3 piezas\nAtún: 1 lata\n\nElige una opción de carbohidrato:\nPasta o arroz: 1/2 taza\nTortillas de maíz: 2 piezas\nTostadas horneadas: 2 piezas\n\nPreparación: Cocina tu proteína al gusto (a la plancha, a la mexicana, en salsa verde o roja) y acompaña con 1 taza de verduras al gusto (sopa, verduras salteadas, etc.) y 50 g de aguacate.",
+        "Colación 2": "Manzana: 1 pieza\nYogurt: 1 pieza",
+        "Cena": "Huevos con vegetales\nHuevo: 2 piezas\nClaras de huevo: 1/4 taza\nAceite de oliva: 1 cucharadita\nCebolla blanca: al gusto\nJitomate o vegetales al gusto: 1 pieza\nCilantro: al gusto\nFruta picada: 1 taza"
       },
       "Domingo": {
         "Desayuno": "",
@@ -194,12 +194,15 @@
     "Ajo",
     "Almendra fileteada",
     "Almendras",
+    "Amaranto",
     "Apio",
     "Arroz",
+    "Arándanos",
     "Arándanos deshidratados",
     "Atún",
     "Avena",
     "Bebida vegetal de almendra o avena sin azúcar",
+    "Bistec de cerdo",
     "Bistec de res",
     "Blueberries",
     "Brócoli",
@@ -232,6 +235,7 @@
     "Fruta",
     "Frutos rojos",
     "Galletas de arroz",
+    "Gelatina de agua",
     "Granola sin azúcar",
     "Guayabas",
     "Hojas de lechuga romana",
@@ -243,6 +247,7 @@
     "Leche",
     "Leche baja en grasa",
     "Leche de avena",
+    "Leche vegetal",
     "Lechuga",
     "Limón",
     "Linaza",
@@ -271,6 +276,7 @@
     "Pistaches",
     "Piña",
     "Pollo",
+    "Pollo blanco",
     "Poro",
     "Puré de tomate natural",
     "Queso Oaxaca light",
@@ -279,6 +285,7 @@
     "Quinoa",
     "Sal",
     "Salmas",
+    "Salmón",
     "Salsa de jitomate",
     "Salsa soya baja en sodio",
     "Salsa verde",
